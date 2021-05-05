@@ -1,0 +1,4 @@
+type StoreConfig @doc(description: "The type contains information about a store config") {
+    payment_cashondelivery_title: String @doc(description: "Cash on delivery payment method title")
+    payment_cashondelivery_instructions: String @doc(description: "Cash on delivery payment method instructions")
+}

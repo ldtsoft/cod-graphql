@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+  ~ Developer
+  ~
+  ~ @author      Trong Le (trongithust@gmail.com)
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+        <arguments>
+            <argument name="extendedConfigData" xsi:type="array">
+                <item name="payment_cashondelivery_title" xsi:type="string">payment/cashondelivery/title</item>
+                <item name="payment_cashondelivery_instructions" xsi:type="string">payment/cashondelivery/instructions</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
