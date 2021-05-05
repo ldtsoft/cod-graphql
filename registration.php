@@ -7,6 +7,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'MW_CodGraphql',
+    'LdtSoft_CodGraphql',
     __DIR__
 );
